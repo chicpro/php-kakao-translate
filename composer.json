@@ -1,0 +1,23 @@
+{
+	"name": "chicpro/php-kakao-translate",
+	"description": "PHP Client for Kakao Translate API",
+	"keywords": ["kakao", "translate", "api"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "chicpro",
+			"email": "chicpro@gmail.com",
+			"homepage": "https://ncube.net"
+		}
+	],
+	"require": {
+		"php": ">=7.0.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"chicpro\\KAKAO\\": "src/chicpro/KAKAO/"
+		}
+	},
+	"minimum-stability": "stable"
+}
