@@ -35,4 +35,5 @@ $translate->setQuery($query);
 
 $result = $translate->sendRequest();
 
-print_r($result);```
+print_r($result);
+```
